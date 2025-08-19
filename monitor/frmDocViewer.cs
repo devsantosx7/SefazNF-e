@@ -283,8 +283,8 @@ public class frmDocViewer : Form
 	private async void frmDocViewer_Load(object sender, EventArgs e)
 	{
 		varclsConfig = await new clsDataConfig().funcGetItemByKeyAsync();
-		_HasNFSeFeatEnabled = await clsScreenGeral.funcHasNFSeNacionalFeatureAsync();
-		_HasCFeSatFeatEnabled = await clsScreenGeral.funcHasCFeNacionalFeatureAsync();
+                _HasNFSeFeatEnabled = true;
+                _HasCFeSatFeatEnabled = true;
 		_ColumnsLoaded = false;
 		clsFunction.funcSetColumnsConfiguration(this, lstDocs);
 		_ColumnsLoaded = true;
@@ -307,8 +307,8 @@ public class frmDocViewer : Form
 		}
 		tabDocs.TabPages.Add(tabDocTree);
 		tabDocs.TabPages.Add(tabDocNote);
-		_HasNFSeFeatEnabled = await clsScreenGeral.funcHasNFSeNacionalFeatureAsync();
-		_HasCFeSatFeatEnabled = await clsScreenGeral.funcHasCFeNacionalFeatureAsync();
+                _HasNFSeFeatEnabled = true;
+                _HasCFeSatFeatEnabled = true;
 		List<Document> varDocList = varDocumentList.ToList();
 		varDocumentList.Clear();
 		foreach (Document varclsItem in varDocList)

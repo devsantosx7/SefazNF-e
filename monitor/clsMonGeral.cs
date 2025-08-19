@@ -17,48 +17,17 @@ public class clsMonGeral
 {
 	public static async Task<bool> funcDocViewerAsync(Form pThis, List<Document> pDocList, bool pShowPDF = true, bool pShowXML = false, bool pShowEDI = false)
 	{
-		clsFeatureService varclsFeatureService = new clsFeatureService();
-		string varFeatExtId = clsFeatureService.consFeatScanDocNFSeIn;
-		if (clsFunction.Contains(await varclsFeatureService.funcGetFeatTypeAsync(varFeatExtId), "LOCK"))
-		{
-			if (pDocList.FirstOrDefault((Document r) => clsFunction.funcIsNFSe(r.Model) && clsFunction.IsEqual(r.DFeSource, "SEFAZ", pIgnoreCase: true)) != null)
-			{
-				await new clsManGeral().funcGetSalesActionAsync(pThis, varFeatExtId);
-				return false;
-			}
-			pDocList = pDocList.Where((Document r) => !clsFunction.funcIsNFSe(r.Model) || (clsFunction.funcIsNFSe(r.Model) && !clsFunction.IsEqual(r.DFeSource, "Sefaz", pIgnoreCase: true))).ToList();
-			if (pDocList.Count == 0)
-			{
-				return true;
-			}
-		}
-		varFeatExtId = clsFeatureService.consFeatScanDocCFeOut;
-		if (clsFunction.Contains(await varclsFeatureService.funcGetFeatTypeAsync(varFeatExtId), "LOCK"))
-		{
-			if (pDocList.FirstOrDefault((Document r) => clsFunction.funcIsCFeSat(r.Model) && clsFunction.IsEqual(r.DFeSource, "SEFAZ", pIgnoreCase: true)) != null)
-			{
-				await new clsManGeral().funcGetSalesActionAsync(pThis, varFeatExtId);
-				return false;
-			}
-			pDocList = pDocList.Where((Document r) => !clsFunction.funcIsCFeSat(r.Model) || (clsFunction.funcIsCFeSat(r.Model) && !clsFunction.IsEqual(r.DFeSource, "Sefaz", pIgnoreCase: true))).ToList();
-			if (pDocList.Count == 0)
-			{
-				return true;
-			}
-		}
-		frmDocViewer obj = new frmDocViewer(pDocList, pShowPDF, pShowXML, pShowEDI);
-		obj.ShowDialog(pThis);
-		obj.Dispose();
-		return true;
+                frmDocViewer obj = new frmDocViewer(pDocList, pShowPDF, pShowXML, pShowEDI);
+                obj.ShowDialog(pThis);
+                obj.Dispose();
+                return true;
 	}
 
 	public static async Task<bool> funcLoadTagsAsync(Hashtable pHasColors, Hashtable pTagList, ContextMenuStrip pclsMenu, EventHandler pActCopyKey, EventHandler pActTransfer, EventHandler pActTagCode, EventHandler pActDocNote, EventHandler pActFiscReset, EventHandler pActRemoveDocNote)
 	{
 		new clsDataTag();
-		clsDataWorkFlow varclsDataWork = new clsDataWorkFlow();
-		(await new clsDbaFactory().funcGetClassAsync()).funcGetDbaType();
-		string varFeatAutoTagDet = clsFeatureService.consFeatAutTagDeter;
-		string varFeatType01 = await new clsFeatureService().funcGetFeatTypeAsync(varFeatAutoTagDet);
+                clsDataWorkFlow varclsDataWork = new clsDataWorkFlow();
+                (await new clsDbaFactory().funcGetClassAsync()).funcGetDbaType();
 		pTagList.Clear();
 		pHasColors.Clear();
 		pclsMenu.Items.Clear();
@@ -103,11 +72,7 @@ public class clsMonGeral
 				varNewTagMenu.Click += pActTagCode.Invoke;
 				pclsMenu.Items.Add(varNewTagMenu);
 			}
-			List<WorkFlow> varWorkList = await varclsDataWork.funcGetListAsync("PROC-SETTING-TAG");
-			if (varFeatType01.Contains("LOCK"))
-			{
-				varWorkList.Clear();
-			}
+                        List<WorkFlow> varWorkList = await varclsDataWork.funcGetListAsync("PROC-SETTING-TAG");
 			if (varWorkList.Count > 0)
 			{
 				pclsMenu.Items.Add(new ToolStripSeparator());
