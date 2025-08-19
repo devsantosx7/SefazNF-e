@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="strPanelXmlValidation" xml:space="preserve"><value>&lt;div style="padding: 5px; font-size: 0.9em;"&gt;Voc&amp;ecirc; sabia que em m&amp;eacute;dia &lt;strong&gt;5% dos arquivos XML&lt;/strong&gt; recebidos via e-mail est&amp;atilde;o corrompidos ou foram gerados atrav&amp;eacute;s de fontes sem&amp;nbsp;&lt;strong&gt;n&amp;atilde;o validade jur&amp;iacute;dica&lt;/strong&gt;?&lt;/div&gt;
+&lt;div style="padding: 5px; font-size: 0.9em;"&gt;Configure o Fiscal.io Monitor para &lt;strong&gt;capturar os XMLs&lt;/strong&gt; de caixas de &lt;strong&gt;e-mail&lt;/strong&gt; e &lt;strong&gt;verificar a validade jur&amp;iacute;dica&lt;/strong&gt; de todos eles.&lt;/div&gt;</value></data>
+  <data name="strPanelSearchCFeSat" xml:space="preserve"><value>&lt;div style="font-size: 0.9em; margin: 1px"&gt;
+   &lt;h4 style="margin-top: 0px; margin-bottom: 2px;"&gt;
+	  Atenção! Você possui empresas com CFe SAT disponíveis para captura!
+   &lt;/h4&gt;
+   &lt;p style="margin-top: 4px; margin-bottom: 0px;"&gt;
+	  Adquirindo este recurso de captura de CFe SAT, você poderá: &lt;span style="font-weight:bold;"&gt;Encontrar&lt;/span&gt;
+	  rapidamente os &lt;span style="font-weight:bold;"&gt;documentos emitidos&lt;/span&gt; que precisa; 
+	  &lt;span style="font-weight:bold;"&gt;Identificar&lt;/span&gt; os pontos de
+	  venda &lt;span style="font-weight:bold;"&gt;SAT ativos e inativos&lt;/span&gt;; 
+	  &lt;span style="font-weight:bold;"&gt;Identificar&lt;/span&gt; os cupons fiscais 
+	  &lt;span style="font-weight:bold;"&gt;emitidos em contingência, aprovados e cancelados&lt;/span&gt;.
+   &lt;/p&gt;
+&lt;/div&gt;</value></data>
+  <data name="image_backup_data" mimetype="application/x-microsoft.net.object.binary.base64"><value>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
+9anvTweSr5AAAAAASUVORK5CYIIL</value></data><data name="strPanelFiscalServer" xml:space="preserve"><value>&lt;div style="padding: 5px; font-size: 0.9em;"&gt;&lt;span style="color: #0000ff;"&gt;Aumente a velocidade do Fiscal.io em até 100 vezes&lt;/span&gt; configurando o &lt;strong&gt;Fiscal.io Monitor&lt;/strong&gt; na sua estrutura de servidores ou &lt;strong&gt;na nuvem&lt;/strong&gt; da Fiscal.io como serviços de processamento paralelo.&lt;/div&gt;
+&lt;div style="padding: 5px; font-size: 0.9em;"&gt;Esta configura&amp;ccedil;&amp;atilde;o permite a busca e o gerenciamento de &lt;strong&gt;grandes volumes&lt;/strong&gt; de empresas, documentos e utilização por &lt;strong&gt;múltipos usuários&lt;/strong&gt;.&lt;/div&gt;</value></data>
+  <data name="strPanelPerformance" xml:space="preserve"><value>&lt;div style="padding: 5px; font-size: 0.9em;"&gt;O Fiscal.io permite o &lt;strong&gt;compartilhamento&lt;/strong&gt; dos documentos fiscais para &lt;strong&gt;multiplos usuários&lt;/strong&gt;.&lt;/a&gt;&lt;/div&gt;
+&lt;div style="padding: 5px; font-size: 0.9em;"&gt;Configure um banco de dados centralizado e obtenha: maior segurança de dados, eficiência operacional e aumento de velocidade na aplicação.&lt;/strong&gt;&lt;/div&gt;</value></data>
+  </root>

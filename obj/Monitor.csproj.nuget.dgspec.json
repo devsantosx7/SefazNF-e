@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\aliss\\OneDrive\\Área de Trabalho\\projetos\\SefazNF-e\\Monitor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\aliss\\OneDrive\\Área de Trabalho\\projetos\\SefazNF-e\\Monitor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aliss\\OneDrive\\Área de Trabalho\\projetos\\SefazNF-e\\Monitor.csproj",
+        "projectName": "Monitor",
+        "projectPath": "C:\\Users\\aliss\\OneDrive\\Área de Trabalho\\projetos\\SefazNF-e\\Monitor.csproj",
+        "packagesPath": "C:\\Users\\aliss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aliss\\OneDrive\\Área de Trabalho\\projetos\\SefazNF-e\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aliss\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net452"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net452": {
+            "targetAlias": "net452",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net452": {
+          "targetAlias": "net452",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-preview.7.25380.108\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

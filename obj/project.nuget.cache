@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LnE0edVHOeM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aliss\\OneDrive\\Área de Trabalho\\projetos\\SefazNF-e\\Monitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aliss\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\aliss\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net452\\1.0.3\\microsoft.netframework.referenceassemblies.net452.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

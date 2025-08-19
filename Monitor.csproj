@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Monitor</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net452</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>13.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="srv.fiscal.io">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\srv.fiscal.io.dll</HintPath>
+    </Reference>
+    <Reference Include="data.fiscal.io">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\data.fiscal.io.dll</HintPath>
+    </Reference>
+    <Reference Include="util.fiscal.io">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\util.fiscal.io.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjectListView">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\ObjectListView.dll</HintPath>
+    </Reference>
+    <Reference Include="manager.fiscal.io">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\manager.fiscal.io.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="Microsoft.Web.WebView2.WinForms">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Core">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlRenderer">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\HtmlRenderer.dll</HintPath>
+    </Reference>
+    <Reference Include="audit.fiscal.io">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\audit.fiscal.io.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlRenderer.WinForms">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\HtmlRenderer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="screen.fiscal.io">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\screen.fiscal.io.dll</HintPath>
+    </Reference>
+    <Reference Include="FlatTabControl">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\FlatTabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="plugin.fiscal.io">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\plugin.fiscal.io.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfiumViewer">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\PdfiumViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NLog">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Fiscal.io\MonitorDFe\NLog.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
