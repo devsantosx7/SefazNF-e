@@ -7,7 +7,8 @@
 ![.NET](https://img.shields.io/badge/.NET-net452-512BD4)
 ![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-blue)
 
----
+---<img width="1094" height="700" alt="image" src="https://github.com/user-attachments/assets/e29ba1ba-1d65-409c-8d05-aaeb51b56539" />
+
 
 ## ✨ Visão geral
 
